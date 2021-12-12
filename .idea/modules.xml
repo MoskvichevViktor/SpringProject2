@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/gb-GU_Java_1154-master.iml" filepath="$PROJECT_DIR$/.idea/gb-GU_Java_1154-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gb-GU_Java_1154-master/server/mall-inventory.iml" filepath="$PROJECT_DIR$/gb-GU_Java_1154-master/server/mall-inventory.iml" />
+    </modules>
+  </component>
+</project>
