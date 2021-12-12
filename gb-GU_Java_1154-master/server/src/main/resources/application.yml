@@ -12,4 +12,4 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: validate
-      dialect: org.hibernate.dialect.H2Dialect
+      dialect: org.hibernate.dialect.MySQL8Dialect
