@@ -13,3 +13,15 @@ spring:
     hibernate:
       ddl-auto: validate
       dialect: org.hibernate.dialect.MySQL8Dialect
+
+  mail:
+    host: smtp.google.com
+    port: 587
+    username: <changeit>
+    password: <changeit>
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starrls:
+            enable: true
