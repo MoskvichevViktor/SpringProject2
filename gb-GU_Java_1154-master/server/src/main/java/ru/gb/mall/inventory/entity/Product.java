@@ -66,4 +66,6 @@ public class Product {
             foreignKey = @ForeignKey(name = "FK_PRODUCT_DISCOUNT_PRODUCT_ID_RELATION")
     )
     private ProductDiscount discount;
+
+
 }
