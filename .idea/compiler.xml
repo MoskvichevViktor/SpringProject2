@@ -7,15 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="application" />
         <module name="mall-inventory" />
+        <module name="dellivery" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mall-inventory" target="16" />
+      <module name="application" target="17" />
+      <module name="dellivery" target="17" />
+      <module name="mall-inventory" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="application" options="-parameters" />
+      <module name="dellivery" options="-parameters" />
       <module name="mall-inventory" options="-parameters" />
     </option>
   </component>

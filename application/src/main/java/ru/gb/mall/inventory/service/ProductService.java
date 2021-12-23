@@ -1,13 +1,9 @@
 package ru.gb.mall.inventory.service;
 
-import jdk.jfr.Category;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import ru.gb.mall.inventory.entity.Product;
 import ru.gb.mall.inventory.entity.ProductDto;
 import ru.gb.mall.inventory.exception.EntityNotFoundException;
-import ru.gb.mall.inventory.exception.ResourceNotFoundException;
 import ru.gb.mall.inventory.repository.ProductRepository;
 
 import javax.transaction.Transactional;
