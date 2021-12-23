@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/gb-GU_Java_1154-master/server/pom.xml" />
+        <option value="$PROJECT_DIR$/application/pom.xml" />
+        <option value="$PROJECT_DIR$/dellivery/pom.xml" />
       </list>
     </option>
   </component>
